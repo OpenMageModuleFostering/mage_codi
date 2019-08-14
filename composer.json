@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Mage_Codi",
+    "type": "magento-module",
+    "license": "OSL-v3.0",
+    "homepage": "",
+    "description": "Catalog-on-Demand",
+    "authors": [
+    {
+        "name": "catalogondemand",
+        "email": "timh@catalog-on-demand.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

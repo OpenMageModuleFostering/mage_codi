@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<config>
+    <tabs>
+        <codiscript translate="label" module="codiscript">
+            <label>Catalog-on-Demand</label>
+            <sort_order>100</sort_order>
+        </codiscript>
+    </tabs>
+    <sections>
+        <codiscript translate="label" module="codiscript">
+            <class>separator-top</class>
+            <label>Catalog-on-Demand Configuration</label>
+            <tab>codiscript</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>40</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <config translate="label">
+                    <label>Configuration</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>100</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <password translate="label comment">
+                            <label>Password</label>                            
+                            <comment>Use Valide Symbols</comment>
+                            <frontend_type>text</frontend_type>                            
+                            <sort_order>100</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <validate>validate-codi-password</validate>
+                        </password>
+                    </fields>
+                </config>
+            </groups>
+        </codiscript>   
+    </sections>
+</config>
+

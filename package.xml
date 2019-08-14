@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Mage_Codi</name>
+    <version>4.3.0</version>
+    <stability>stable</stability>
+    <license uri="http://www.opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Catalog-on-Demand</summary>
+    <description>Extension to connect to the Catalog-on-Demand service for making print catalogs, brochures, and flyers.</description>
+    <notes>Please contact our support desk if you have any problems.</notes>
+    <authors><author><name>catalogondemand</name><user>catalogondemand</user><email>timh@catalog-on-demand.com</email></author></authors>
+    <date>2016-10-11</date>
+    <time>00:43:11</time>
+    <contents><target name="magecommunity"><dir name="Mage"><dir name="CodiScript"><dir name="Helper"><file name="Data.php" hash="3f99660cb06a9dc09f024b9993d43a3f"/></dir><dir name="Model"><file name="Files.php" hash="b5d35239376f3672365faabe80120098"/></dir><dir name="controllers"><file name="IndexController.php" hash="69fd58379b9a1d5d9b6af5bea899e489"/></dir><dir name="etc"><file name="adminhtml.xml" hash="40ab0bd86928c5ba175988926a9f6aee"/><file name="config.xml" hash="b960e9bd106f0c94559baa2bc5761e18"/><file name="system.xml" hash="1b5e5b18bfdce6b85e304fb4ef877274"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Mage_CodiScript.xml" hash="f0502cac7918fc798b3b02d3d4b7e7fd"/></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="codiscript.xml" hash="066f99333a6054e11943a75413f65ff0"/></dir></dir></dir></dir></target><target name="mageweb"><dir name="js"><dir name="codi"><file name="password_validation.js" hash="7223aeed118bb5774c73f951460ae0b0"/></dir></dir></target><target name="magelocale"><dir name="en_US"><file name="Mage_CodiScript.csv" hash=""/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
